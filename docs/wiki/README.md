@@ -1,0 +1,10 @@
+# ngk90/three-tier-application-demo wiki
+
+Exported by Forge (base branch `main`). Edit pages in Forge's Wiki mode and export again to update this folder.
+
+## Project pages
+- [Architecture](./architecture.md)
+- [Architecture Decisions](./architecture-decisions.md)
+- [Coding Standards](./coding-standards.md)
+- [Known Issues](./known-issues.md)
+- [Overview](./overview.md)
