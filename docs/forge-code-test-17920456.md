@@ -4,3 +4,4 @@
 - **Context:** Need to verify documentation and smoke tests without affecting runtime behavior
 - **Decision:** Documentation-only smoke tests must not change runtime behavior
 - **Consequences:** All verification activities remain isolated to documentation and testing artifacts, ensuring no impact on production code or runtime execution
+stop-probe-17920456
