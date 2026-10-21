@@ -130,3 +130,23 @@ DATABASE_URL=postgres://app:app@localhost:5432/app npx node-pg-migrate down
 ```
 
 When running via Docker Compose the `migrate` service handles this automatically on startup.
+
+## Development tools
+
+### Listing TODO and FIXME comments
+
+The repository includes a script to scan for TODO and FIXME comments across the codebase:
+
+```bash
+# List all TODO and FIXME comments
+npm run todos
+
+# Output as JSON
+npm run todos -- --format json
+
+# Filter by type
+npm run todos -- --filter TODO
+npm run todos -- --filter FIXME
+```
+
+The script automatically skips `.git`, `node_modules`, and binary files. Exit code is 0 if no comments found, 1 otherwise.
