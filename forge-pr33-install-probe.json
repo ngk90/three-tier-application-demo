@@ -1,0 +1,10 @@
+{
+  "name": "forge-pr33-install-probe",
+  "private": true,
+  "dependencies": {
+    "is-number": "7.0.0"
+  },
+  "scripts": {
+    "test": "node -e \"process.exit(require('is-number')(33) ? 0 : 1)\""
+  }
+}
