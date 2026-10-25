@@ -1,3 +1,3 @@
 # PR34 alpha
-Status: original
+Status: head version
 Disposable verification note.
