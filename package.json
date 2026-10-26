@@ -1,0 +1,6 @@
+{
+  "name": "three-tier-application-demo",
+  "version": "1.0.0",
+  "description": "Three-tier task manager application",
+  "private": true
+}
