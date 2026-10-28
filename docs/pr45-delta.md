@@ -1,0 +1,1 @@
+PR45 delta focused QA fixture.
