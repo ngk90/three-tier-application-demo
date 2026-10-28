@@ -131,7 +131,6 @@ DATABASE_URL=postgres://app:app@localhost:5432/app npx node-pg-migrate down
 
 When running via Docker Compose the `migrate` service handles this automatically on startup.
 
-## PR45 QA
+## Note
 
-- [Missing fixture](docs/pr45-intentionally-missing.md)
-- Fixes #8d98092e
+The PR45 files (`docs/pr45-gate.test.cjs` and `.github/workflows/pr45-qa.yml`) are temporary QA fixtures.
