@@ -1,0 +1,32 @@
+name: PR48 QA
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ready
+      - run: sleep 45
+
+  verify:
+    runs-on: ubuntu-latest
+    needs: prepare
+    steps:
+      - run: echo verified
+
+  expected_failure:
+    runs-on: ubuntu-latest
+    needs: prepare
+    steps:
+      - run: exit 1
+
+  downstream:
+    runs-on: ubuntu-latest
+    needs: expected_failure
+    steps:
+      - run: echo unreachable
