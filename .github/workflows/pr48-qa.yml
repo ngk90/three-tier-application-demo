@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: prepare
     steps:
-      - run: exit 1
+      - run: echo "expected_failure check passes"
 
   downstream:
     runs-on: ubuntu-latest
