@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 app.get('/health', (_req, res) => {
+  console.log('debug value', PORT);
   res.json({ status: 'ok' });
 });
 
